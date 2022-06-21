@@ -1,6 +1,6 @@
 package bestbuy.model;
 
-public class CategoriesPojo {
+public class CategoryPojo {
     private String name;
     private String id;
 

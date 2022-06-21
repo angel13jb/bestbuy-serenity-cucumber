@@ -3,12 +3,12 @@ package bestbuy.model;
 public class ProductPojo {
     private String name;
     private String type;
-    private double price;
+    private int price;
     private int shipping;
     private String upc;
-    private String description;
+    private String description ;
     private String manufacturer;
-    private String model;
+    private  String model;
     private String url;
     private String image;
 
@@ -28,11 +28,11 @@ public class ProductPojo {
         this.type = type;
     }
 
-    public double getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 

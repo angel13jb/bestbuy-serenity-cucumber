@@ -4,12 +4,29 @@ public class StorePojo {
     private String name;
     private String type;
     private String address;
-    private String city;
-    private String state;
+    private String address2;
+    private String city ;
+    private String state ;
     private String zip;
-    private double lat;
-    private double lng;
+    private int lat;
+    private int lng;
     private String hours;
+    public int getLng() {
+        return lng;
+    }
+
+    public void setLng(int lng) {
+        this.lng = lng;
+    }
+
+    public String getHours() {
+        return hours;
+    }
+
+    public void setHours(String hours) {
+        this.hours = hours;
+    }
+
 
     public String getName() {
         return name;
@@ -33,6 +50,14 @@ public class StorePojo {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public String getAddress2() {
+        return address2;
+    }
+
+    public void setAddress2(String address2) {
+        this.address2 = address2;
     }
 
     public String getCity() {
@@ -59,27 +84,11 @@ public class StorePojo {
         this.zip = zip;
     }
 
-    public double getLat() {
+    public int getLat() {
         return lat;
     }
 
-    public void setLat(double lat) {
+    public void setLat(int lat) {
         this.lat = lat;
-    }
-
-    public double getLng() {
-        return lng;
-    }
-
-    public void setLng(double lng) {
-        this.lng = lng;
-    }
-
-    public String getHours() {
-        return hours;
-    }
-
-    public void setHours(String hours) {
-        this.hours = hours;
     }
 }
